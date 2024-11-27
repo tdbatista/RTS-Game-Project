@@ -41,3 +41,5 @@ Para funcionar precisa:
 - Ter um navmesh agent / navmesh obstacle para construção ou item fixo.
 - Ter um capsule collider (ou cube collider/sphere collider, vai depender da forma da unidade)
 - Ter um animator para caso a unidade ter animação.
+
+Além disso, para indicar na tela que a unidade está selecionada, deve setar um playerSelector, podendo ser um gameobject de um cursor (pode ser um cone amassado ou uma imagem 2d ou gerado proceduralmente) que exibirá ao unidade ser clicada.
